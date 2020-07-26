@@ -1,0 +1,205 @@
+{
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.8.3.20",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 110913,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22727,
+      "type": "VEC3",
+      "max": [
+        274.3674621582031,
+        401.07720947265625,
+        158.48316955566406
+      ],
+      "min": [
+        -273.01934814453125,
+        -0.4272778630256653,
+        -158.48316955566406
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22727,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 22727,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 22727,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 221828,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 221828,
+      "byteLength": 272724,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 494552,
+      "byteLength": 272724,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 767276,
+      "byteLength": 363632,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1130908,
+      "byteLength": 181816,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "TreasureChest_data.bin",
+      "byteLength": 1312724
+    }
+  ],
+  "images": [
+    {
+      "uri": "TreasureChest_img0.png"
+    },
+    {
+      "uri": "TreasureChest_img1.png"
+    },
+    {
+      "uri": "TreasureChest_img2.png"
+    },
+    {
+      "uri": "TreasureChest_img3.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {},
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TANGENT": 3,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "name": "RootNode.0"
+    },
+    {
+      "mesh": 0,
+      "name": "pirate_treasure.1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 3
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
